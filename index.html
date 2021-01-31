@@ -1,111 +1,103 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Javaの理解を深めよう</title>
-  <meta name="description" content="執筆者である私自身がJavaの理解を深めるためにまとめた記事となっております。読者の皆さんの学習の手助けになれば幸いです！">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
-</head>
-
-<body>
-  <div class="header">
-    <div id="top1">
-      <h1>Javaの理解を深めよう</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div class="nav">
-      <h1>サイト目次一覧</h1>
-      <ol>
-        <li><a href="./index.html#top">Javaの理解を深めよう</a></li>
-        <li><a href="./index.html#gaiyou">サイト概要</a></li>
-        <li><a href="./index.html#tuite">Javaについて</a>
-          <ol>
-            <li><a href="./index.html#name">Javaとは？</a></li>
-            <li><a href="./index.html#name">Javaの名前の由来</a></li>
-          </ol>
-        </li>
-        <li><a href="./index.html2#top2">Javaの特徴とは？</a>
-          <ol>
-            <li><a href="./index2.html#toku">Java最大の特徴</a></li>
-            <li><a href="./index2.html#tuku">Javaで何が作れる？</a></li>
-            <li><a href="./index2.html#nanido">Javaの難易度は？</a></li>
-          </ol>
-        </li>
-        <li><a href="./class1.html#top3">クラスの基本</a>
-          <ol>
-            <li><a href="./class1.html#cls">クラス</a></li>
-            <li><a href="./class1.html.html#obj">オブジェクト指向</a></li>
-            <li><a href="./class1.html.html#msd">メソッド</a></li>
-            <li><a href="./class1.html.html#fld">フィールド</a></li>
-            <li><a href="./class1.html.html#mmb">メンバ</a></li>
-          </ol>
-        </li>
-        <li><a href="./class2.html#top4">クラスの機能</a>
-          <ol>
-            <li><a href="./class2.html#access">アクセス制限</a></li>
-            <li><a href="./class2.html#over">オーバーロード</a></li>
-            <li><a href="./class2.html#const">コンストラクタ</a></li>
-          </ol>
-        </li>
-        <li><a href="./keisyou.html#top5">継承</a>
-          <ol>
-            <li><a href="./keisyou.html#sikumi">継承の仕組み</a></li>
-            <li><a href="./keisyou.html#inst">インスタンス変数</a></li>
-            <li><a href="./keisyou.html#super">スーパークラス</a></li>
-            <li><a href="./keisyou.html#sub">サブクラス</a></li>
-            <li><a href="./keisyou.html#ride">オーバライド</a></li>
-          </ol>
-        </li>
-        <li><a href="./total.html#top6">まとめ</a>
-          <ol>
-            <li><a href="./total.html#sitemite">本サイトを作成してみて</a></li>
-            <li><a href="./total.html#itiran">参考・出典資料一覧</a></li>
-            <li><a href="./total.html#last">最後に</a></li>
-          </ol>
-        </li>
-      </ol>
-    </div>
-    <div class="main">
-      <h2 id="gaiyou">サイト概要</h2>
-      <p>まず始めに、このサイトは作成者が訓練校で学習したJava、HTML、CSSの３つについて理解を深めることを目的として作成したものです。内容はタイトル通りJavaについて紹介していきます。
-      </p>
-      <h2 id="tuite">Javaについて</h2>
-      <p>
-        今回、プログラミング言語のJava言語をお題として私が調べた情報をもとに説明していきます。
-      </p>
-      <h2 id="towa">Javaとは？</h2>
-      <p>
-        コンピュータに何らかの処理をさせるために「<span>機械語よりの人間の言葉に近いプログラミング言語</span>」をつかてプログラムを書き命令していきます。そんなプログラミング言語の数ある中の１つがJavaです。
-      </p>
-      <p>
-        Java言語は<span>コンパイラ(Compiler)</span>、<span>インタプリタ(Interpreter)</span>という２つのソフトウェアを使い、機械語に翻訳されることになっています。この機械語のプログラムによってコンピュータは実際に処理を行うことができます。
-      </p>
-      <h2 id="name">名前の由来</h2>
-      <h3>コーヒーカップがトレードマーク？</h3>
-      <p>
-        Javaの名前の由来については諸説ありますが、開発メンバーがよく通っていたカフェのメニューから命名したという説が一番有力です。
-      </p>
-      <p>
-        Javaのクラスファイルの最初の４バイトは’0×CAFEBASE’となっているという話は有名です。
-      </p>
-      
-    </div>
-  </div>
-  <div class="footer">
-    <p>別ページのトップへ移動</p>
-    <ol>
-      <li><a href="./index.html2#top2">Javaの特徴とは？</a><li>
-      <li><a href="./class1.html#top3">クラスの基本</a></li>
-      <li><a href="./class2.html#top4">クラスの機能</a></li>
-      <li><a href="./keisyou.html#top5">継承</a></li>
-      <li><a href="./total.html#top6">まとめ</a></li>
-    </ol>
-    <address>Email: aiueo@xxx.yyy.co.jp</address>
-    <p><small>&copy;2020 08 OHTOMO</small>
-    </p>
-  </div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Javaの理解を深めよう</title>
+		<link rel="stylesheet" href="./css/main.css" type="text/css">
+	</head>
+	<body>
+	<div class="header">
+		<h1 id="top1">Javaの理解を深めよう</h1>
+	</div>
+	<div class="container">
+		<div class="nav">
+			<h1>サイト目次一覧</h1>
+			<ol>
+				<li><a href="./index.html#tuite">Javaについて</a>
+					<ol>
+						<li><a href="./index.html#gaiyou">サイト概要</a>
+						<li><a href="./index.html#towa">Javaとは？</a></li>
+						<li><a href="./index.html#nam">Javaの名前の由来</a></li>
+					</ol>
+				</li>
+				<li><a href="./index2.html#top2">Javaの特徴とは？</a>
+					<ol>
+						<li><a href="./index2.html#toku">Javaの最大の特徴</a></li>
+						<li><a href="./index2.html#tuku">Javaで何が作れる？</a></li>
+						<li><a href="./index2.html#nanido">Javaの難易度は？</a></li>
+					</ol>
+				</li>
+				<li><a href="./class1.html#top3">クラスの基本</a>
+					<ol>
+						<li><a href="./class1.html#cls">クラス</a></li>
+						<li><a href="./class1.html#obj">オブジェクト指向</a></li>
+						<li><a href="./class1.html#msd">メソッド</a></li>
+						<li><a href="./class1.html#fld">フィールド</a></li>
+						<li><a href="./class1.html#mmb">メンバ</a></li>
+					</ol>
+				</li>
+				<li><a href="./class2.html#top4">クラスの機能</a>
+					<ol>
+						<li><a href="./class2.html#access">アクセス制限</a></li>
+						<li><a href="./class2.html#load">オーバーロード</a></li>
+						<li><a href="./class2.html#const">コンストラクタ</a></li>
+					</ol>
+				</li>
+				<li><a href="./keisyou.html#top5">継承</a>
+					<ol>
+						<li><a href="./keisyou.html#sikumi">継承の仕組み</a></li>
+						<li><a href="./keisyou.html#inst">インスタンス変数</a></li>
+						<li><a href="./keisyou.html#super">スーパークラス</a></li>
+						<li><a href="./keisyou.html#sub">サブクラス</a></li>
+						<li><a href="./keisyou.html#ride">	オーバーライド</a></li>
+					</ol>
+				</li>
+				<li><a href="./total.html#top6">まとめ</a>
+					<ol>
+						<li><a href="./total.html#site">本サイトを作成してみて</a></li>
+						<li><a href="./total.html#itiran">参考・出典資料一覧</a></li>
+						<li><a href="./total.html#rikai">Javaの理解は深まったか？</a></li>
+					</ol>
+				</li>
+			</ol>
+		</div>
+		<div class="main">
+			<h2 id="tuite">Javaについて</h2>
+			<p>今回、プログラミング言語のJava言語をお題として私が調べた情報をもとに説明していきます。
+			</p>
+			
+			<h2 id="gaiyou">サイト概要</h2>
+			<p>まず始めに、このサイトは作成者が訓練校で学習したJava.HTML,CSSの３つについて理解を深めていくことを目的として作成したものです。内容はタイトルの通りJavaについて紹介していきます。
+			</p>
+			
+			<h2 id="towa">Javaとは？</h2>
+			<p>コンピュータに何らかの処理をさせるために「<span>機械語よりも人間の言葉に近い水準のプログラミング言語</span>」を使ってプログラムを書き命令を書いていきます。そんなプログラミング言語の数ある中の1つがJava言語です。
+			</p>
+			<p>Java言語は<span>コンパイラ</span>（compiler）、<span>インタプリタ</span>（imterpreter）という２つのソフトウェアを使い、機械語に翻訳されることになっています。この機械語のプログラムによってコンピュータは実際に処理を行うことができます。
+			</p>
+			
+			<h2 id="nam">Javaの名前の由来</h2>
+			<h3>コーヒーカップがトレードマーク？</h3>
+			<p>Javaの名前の由来については諸説ありますが、開発メンバーがよく通っていた<span>カフェのメニューから命名した</span>という説が一番有力です。Javaのクラスファイルの最初の４バイトは'0xCAFEBASE'となっているという話は有名です。
+			</p>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<p>別ページへ移動</p>
+		<ul>
+			<li><a href="./index2.html#top2">Javaの特徴とは？</a></li>
+			<li><a href="./class1.html#top3">クラスの基本</a></li>
+			<li><a href="./class2.html#top4">クラスの機能</a></li>
+			<li><a href="./keisyou.html#top5">継承</a></li>
+			<li><a href="./total.html#top6">まとめ</a></li>
+		</ul>
+		<address>Email: aiueo@xxx.yyy.co.jp
+		</address>
+		<p><small>&copy;2020 08 OHTOMO</small>
+		</p>
+	</div>
+	</body>
 </html>
